@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Project01_Introduction
+namespace RP_HelloWorld
 {
     // All organizing structures use { and } to define their boundaries
-    class L1_Program
+    class RPHelloWorld
     {
         // All .NET programs begin with the main method
         // It looks like this
@@ -14,16 +14,6 @@ namespace Project01_Introduction
             Console.WriteLine("Hello World!");
             //Console.ReadKey();
             //Debug.WriteLine("Hello World!");
-
-            // variables and native operations
-            int x;
-            int y;
-
-            x = 3;
-            y = 4;
-            int sum = x + y;
-            Console.Write("x + y is ");
-            Console.WriteLine(sum);
         }
     }
 }
